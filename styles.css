@@ -100,5 +100,68 @@ header h1{
     }  
     
     
-    
+     /*media queries*/
+  @media screen and (max-height: 450px) {
+    .overview a {font-size: 20px}
+    .overview .closebutton {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+
+  .embed.hide{
+      display: none;
+  }
+
+  .embed.show{
+      display: inline-block;
+  }
+
+  .arrow{
+      position: absolute;
+      font-size: 40px;
+  }
+
+  .arrow.left-arrow{
+      top:50%;
+      left:5%;
+      transform: translateY(-50%);
+  }
+
+  
+  .arrow.right-arrow{
+    top:50%;
+    transform: translateY(-50%);
+    right:5%;
+}
+
+.dots{
+    margin-top: 30px;
+}
+
+.dots .dot {
+    padding: 5px 15px;
+    border-radius: 50%;
+    border: 5px solid var(--secondary-color);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 5px;
+}
+
+.dots .dot.active{
+    background-color: #4B0082;
+}
+
+p{
+    bottom: 0;
+    position: fixed;
+    margin-top: 130px;
+    color: #fff;
+    border-radius: 3px;
+    padding: 12px 22px;
+    z-index: 1000;
+}
     
