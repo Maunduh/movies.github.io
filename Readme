@@ -1,0 +1,23 @@
+
+## Project Description
+The project is a web application that allows one to search for various movies using movie names as well as various genres. One is able to browse through various movies based on their respective genres as well as apply a number of filters. Ratings are also displayed for all the movies available.
+## Features
+- Search button that enables searching by inputting text.
+- Display of movies according to genres.
+- Searching for movies by use of genre-based filters.
+- Discover movies based on their genres.
+- Movie displays showing movie images, titles and ratings
+## Technology Used
+- HTML
+- CSS
+- JavaScript
+
+## Setup Instructions
+### How to run the application locally on your computer.
+- Open your terminal.
+clone "https://github.com/amosmaundundu/movies.github.io"
+cd Movies
+- Navigate to index.html file and open it in your browser `browser name index.html`.
+- Internet connection is needed to run the web application successfully.
+## Live Page
+>  https://amosmaundundu.github.io/movies.github.io/
